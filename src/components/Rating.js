@@ -29,6 +29,7 @@ function Rating({ value, text, color}) {
                     value >= 5 ? 'fa fa-star' : value >= 4.5 ? 'fa fa-star-half-o' : 'fa fa-star-o'
                 }></i>
             </span>
+            <span>{text && text}</span>
         </div>
     )
 }
